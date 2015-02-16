@@ -1,0 +1,20 @@
+apply plugin: 'groovy'
+apply plugin: 'checkstyle'
+apply plugin: 'findbugs'
+apply plugin: 'build-dashboard'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+version = '1.0'
+
+repositories {
+    jcenter()
+     // Spock snapshots are available from the Sonatype OSS snapshot repository
+     maven { url "http://oss.sonatype.org/content/repositories/snapshots/" }
+}
+
+dependencies { 
+    compile 'org.slf4j:slf4j-api:1.7.7'
+    compile 'org.codehaus.groovy:groovy:2.4.0'
+    testCompile 'org.spockframework:spock-core:1.0-groovy-2.3-SNAPSHOT'
+}

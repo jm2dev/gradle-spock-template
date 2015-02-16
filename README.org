@@ -1,0 +1,37 @@
+#+TITLE: Learning spock
+#+AUTHOR: José Miguel Martínez Carrasco
+#+EMAIL: jm@0pt1mates.com
+
+#+INFOJS_OPT: view:t toc:t ltoc:t mouse:underline buttons:0 path:http://thomasf.github.io/solarized-css/org-info.min.js
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://thomasf.github.io/solarized-css/solarized-light.min.css" />
+
+* Abstract
+
+Basic gradle project to learn spock framework
+
+* Dependencies
+
+- [[http://openjdk.java.net][Java 8]]
+- [[http://gradle.org][Gradle]]
+
+* Usage
+
+#+BEGIN_SRC shell
+gradle test
+#+END_SRC
+
+* Time report                                                          :hide:
+
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2015-02-16 Mon 20:44]
+| Headline         | Time   |      |
+|------------------+--------+------|
+| *Total time*     | *0:22* |      |
+|------------------+--------+------|
+| Time report      | 0:22   |      |
+| \emsp DONE Setup |        | 0:22 |
+#+END:
+
+** DONE Setup
+   CLOSED: [2015-02-16 Mon 20:44]
+   CLOCK: [2015-02-16 Mon 20:22]--[2015-02-16 Mon 20:44] =>  0:22
